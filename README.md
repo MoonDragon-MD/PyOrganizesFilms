@@ -6,23 +6,37 @@ IT- Questo progetto è iniziato in italiano poi l'ho trasformato in inglese ma h
 ## Description
 
 PyOrganizesFilms is a Python script designed to organize video files (movies) into a folder structure based on file metadata. 
+
 This script uses the file name or internal tags to extract the title and year. 
+
 Also, using Wikipedia offline via the Kiwix server, it gets the plot and actors.
+
 The name set “Movie name - year” is considered “optimal” and you will not be asked if the digits after the hyphen correspond to the year of publication.
+
 In Italian only, films can be organized by genre or by year or both. In English sopo by year (not my fault but the English wiki is set up wrong).
+
 If it finds a same filename after the arrangement, it will be added Doubling to the filename (then check by hand which version to keep).
+
 A web page will be created to open with the browser where there will be a search bar and the list of the fixed movies with also a button with the direct code for VLC and the link to the movie page on offline wiki (if you have turned on the server again)
+
 NB: It all works OFFLINE
 
 ## Descrizione
 
 PyOrganizzaFilm è uno script Python progettato per organizzare i file video (film) in una struttura di cartelle basata sui metadati dei file. 
+
 Questo script usa il nome del file oppure i tag interni per estrarre il titolo e l'anno. 
+
 Inoltre, usando Wikipedia offline tramite il server Kiwix, ottiene la trama e gli attori.
+
 Il nome impostato "Nome Film - anno" viene ritenuto "ottimale" e non vi verrà chiesto se le cifre dopo il trattino corrispondano all'anno di pubblicazione.
+
 Solo in italiano i film possono essere organizzati per genere o per anno o entrambi. In inglese sopo per anno (non è colpa mia ma di wiki inglese che è impostata male)
+
 Se trova uno stesso nome file dopo la sistemazione, verrà aggiunto Doppione al nome del file (poi controllate a mano che versione tenere).
+
 Verrà creata una pagina web da aprire con il browser dove ci sarà una barra di ricerca e l'elenco dei film sistemati con anche un pulsante con il codice diretto per VLC e il link alla pagina del film su wiki offline (se avete acceso ancora il server)
+
 NB: Funziona tutto OFFLINE
 
 ## Features.
