@@ -503,8 +503,8 @@ def create_html_page(files_metadata, new_file_names):
             f.write(f'<li class="file-item"><strong><a href="{file_link}" class="fileLink">{escape_html(file_title)}</a></strong><br>')
             f.write(f'<button class="copy-button" onclick="copyFolderPath(\'{file_link}\')">VLC</button> ')
             f.write(f'<a href="{wiki_url}">Wikipedia</a><br>')  # Use “wiki_url” for link to Wikipedia
-            f.write(f'Regista: {escape_html(metadata["director"])}<br>')
-            f.write(f'Attori: {escape_html(metadata["actors"])}<br>')
+            f.write(f'Directed by: {escape_html(metadata["director"])}<br>')
+            f.write(f'Actors: {escape_html(metadata["actors"])}<br>')
             f.write(f'<p>{escape_html(metadata["plot"])}</p></li>')
 
         f.write('''
