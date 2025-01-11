@@ -455,7 +455,7 @@ def create_html_page(files_metadata, new_file_names):
     debug_print(f"DEBUG: Creazione della pagina HTML con i metadati dei file")
     with open('PyOrganizzaFilm.html', 'w', encoding='utf-8') as f:
         f.write('<html><body>')
-        f.write('<h1><a href="https://github.com/MoonDragon-MD/PyOrganizzaFilm">PyOrganizzaFilm</a></h1>')
+        f.write('<h1><a href="https://github.com/MoonDragon-MD/PyOrganizesFilms">PyOrganizzaFilm</a></h1>')
         f.write('<input type="text" id="searchInput" onkeyup="searchMovies()" placeholder="Cerca film..">')
         f.write('<ul id="movieList">')
 
