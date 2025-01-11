@@ -60,7 +60,9 @@ NB: Funziona tutto OFFLINE
     pip install requests tinytag mutagen beautifulsoup4 
 
 ## Usage / Utilizzo
+
 EN- Configure the variables KIWIX_FILE and CARTELLA_FILM (film folder) in the source code.
+
 IT- Configurare le variabili KIWIX_FILE e CARTELLA_FILM nel codice sorgente.
 
 Start the Kiwix server with the command: / Avviare il server Kiwix con il comando:
@@ -73,6 +75,7 @@ Run the Python script. / Eseguire lo script Python.
     
  EN- Follow the on-screen instructions to choose whether to read tags from files, move or copy files, and how to organize movies.
   When finished, an HTML page will be created with the details of the organized movies.
+  
  IT- Seguire le istruzioni a schermo per scegliere se leggere i tag dai file, spostare o copiare i file, e come organizzare i film.
   Al termine, verrà creata una pagina HTML con i dettagli dei film organizzati.
 
@@ -80,10 +83,12 @@ Run the Python script. / Eseguire lo script Python.
 
 ## Debug
 EN- To enable debugging, change the DEBUG variable in the source code:
+
 IT- Per abilitare il debug, modificare la variabile DEBUG nel codice sorgente:
 
     DEBUG = True
 
 ## Note
 EN - Pay attention to the type of fil zim you download, for example, the version “wikipedia_en_all_mini_2024-02.zim” has no plot, so I used “wikipedia_en_all_nopic_2024-06.zim”
+
 IT - Io ho usato la versione "wikipedia_it_all_maxi_2024-03.zim" ma va bene anche quella senza immagini
