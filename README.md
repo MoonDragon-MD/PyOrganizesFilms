@@ -95,6 +95,10 @@ Run the Python script. / Eseguire lo script Python.
 
 ## Screenshots
 
+![alt text](https://github.com/MoonDragon-MD/PyOrganizesFilms/blob/main/img/ENG.jpg?raw=true)
+
+![alt text](https://github.com/MoonDragon-MD/PyOrganizesFilms/blob/main/img/ITA.jpg?raw=true)
+
 ## Debug
 EN- To enable debugging, change the DEBUG variable in the source code:
 
