@@ -68,10 +68,16 @@ NB: Funziona tutto OFFLINE
 - Python v3.*
 - Kiwix server (Wikipedia offline): [kiwix-tools](https://download.kiwix.org/release/kiwix-tools/) I used kiwix-tools_linux-x86_64-3.7.0-2.tar.gz
 
+[Download ENG](https://github.com/MoonDragon-MD/PyOrganizesFilms/releases/tag/First) (V-1.0)
+
+[Scarica ITA](https://github.com/MoonDragon-MD/PyOrganizesFilms/releases/tag/V2) (V-2.0)
+
 ## Installation / Installazione
 
     sudo apt-get install mkvtoolnix ffmpeg
     pip install requests tinytag mutagen beautifulsoup4 
+    
+For the Italian version V2.0 must also be installed unidecode
 
 ## Usage / Utilizzo
 
